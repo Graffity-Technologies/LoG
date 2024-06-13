@@ -26,6 +26,7 @@ train:
     dataset_state:
       scale: 4
 
+# delete val part for custom dataset
 val:
   dataset: $val_dataset
   iteration: 10000
