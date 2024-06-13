@@ -14,7 +14,7 @@ dataset:
     znear: 0.001
     zfar: 100.
     scale3d: $scale3d
-    ext: .JPG
+    ext: .JPG # change file format for custom dataset (case sensitive)
   
 val_dataset:
   module: LoG.dataset.colmap.ImageDataset
@@ -34,7 +34,7 @@ val_dataset:
     znear: 0.001
     zfar: 100.
     scale3d: $scale3d
-    ext: .JPG
+    ext: .JPG # change file format for custom dataset (case sensitive)
 
 demo_interpolate:
   model_state:
